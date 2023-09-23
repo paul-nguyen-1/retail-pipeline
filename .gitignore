@@ -9,3 +9,7 @@ airflow-webserver.pid
 webserver_config.py
 airflow.cfg
 airflow.db
+gcp
+service_account.json
+online_retail.csv
+dataset
