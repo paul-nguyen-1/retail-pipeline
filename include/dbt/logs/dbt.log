@@ -1,0 +1,50 @@
+[0m02:22:52.567190 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2f95b93fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2f94490070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2f94490160>]}
+
+
+============================== 02:22:52.576625 | afa9fc5a-9c01-4631-8939-c9d3dc7c6a66 ==============================
+[0m02:22:52.576625 [info ] [MainThread]: Running with dbt=1.5.6
+[0m02:22:52.582772 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'use_colors': 'True', 'indirect_selection': 'eager', 'fail_fast': 'False', 'printer_width': '80', 'write_json': 'True', 'log_cache_events': 'False', 'log_format': 'default', 'partial_parse': 'True', 'log_path': '/usr/local/airflow/include/dbt/logs', 'introspect': 'True', 'cache_selected_only': 'False', 'quiet': 'False', 'profiles_dir': '/usr/local/airflow/include/dbt', 'use_experimental_parser': 'False'}
+[0m02:22:52.710156 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'afa9fc5a-9c01-4631-8939-c9d3dc7c6a66', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2f94353a90>]}
+[0m02:22:52.723998 [debug] [MainThread]: Set downloads directory='/tmp/dbt-downloads-2xi4kldc'
+[0m02:22:52.727110 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m02:22:53.069150 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m02:22:53.075099 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m02:22:53.250164 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m02:22:53.275022 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m02:22:57.827046 [info ] [MainThread]: Installed from version 1.1.1
+[0m02:22:57.830078 [info ] [MainThread]: Up to date!
+[0m02:22:57.834769 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'afa9fc5a-9c01-4631-8939-c9d3dc7c6a66', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2f943501c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2f94350250>]}
+[0m02:22:57.840373 [debug] [MainThread]: Command `dbt deps` succeeded at 02:22:57.840029 after 5.32 seconds
+[0m02:22:57.844696 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2f95b93fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2f94353a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2f94350070>]}
+[0m02:22:57.848058 [debug] [MainThread]: Flushing usage events
+[0m02:23:13.997161 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f211f47b610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f211dd805b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f211dd80040>]}
+
+
+============================== 02:23:14.006652 | 907400e8-3c7a-450d-822d-b18d1a11cf7a ==============================
+[0m02:23:14.006652 [info ] [MainThread]: Running with dbt=1.5.6
+[0m02:23:14.011632 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'log_path': '/usr/local/airflow/include/dbt/logs', 'quiet': 'False', 'cache_selected_only': 'False', 'warn_error': 'None', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'profiles_dir': '/usr/local/airflow/include/dbt/', 'static_parser': 'True', 'no_print': 'None', 'partial_parse': 'True', 'version_check': 'True', 'printer_width': '80', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'debug': 'False', 'fail_fast': 'False', 'target_path': 'None', 'log_cache_events': 'False', 'introspect': 'True'}
+[0m02:23:15.137655 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '907400e8-3c7a-450d-822d-b18d1a11cf7a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f211be435b0>]}
+[0m02:23:15.168815 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '907400e8-3c7a-450d-822d-b18d1a11cf7a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f211be7e0b0>]}
+[0m02:23:15.172270 [info ] [MainThread]: Registered adapter: bigquery=1.5.3
+[0m02:23:15.389977 [debug] [MainThread]: checksum: 36b91491eb2b55e69ff526c98e337edadb953c9826242889489b2fea40332ad6, vars: {}, profile: , target: , version: 1.5.6
+[0m02:23:15.405610 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m02:23:15.411880 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '907400e8-3c7a-450d-822d-b18d1a11cf7a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f211f6017b0>]}
+[0m02:23:15.574795 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Error reading retail: sources/sources.yml - Runtime Error
+    Syntax error near line 8
+    ------------------------------
+    5  | 
+    6  |     tables:
+    7  |       - name: raw_invoices
+    8  | 			- name: country
+    
+    Raw Error:
+    ------------------------------
+    while scanning a plain scalar
+      in "<unicode string>", line 7, column 15
+    found a tab character that violates indentation
+      in "<unicode string>", line 8, column 1
+[0m02:23:15.580454 [debug] [MainThread]: Command `dbt run` failed at 02:23:15.580165 after 1.61 seconds
+[0m02:23:15.589354 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f211f47b610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f211be7c5e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f211be7d5a0>]}
+[0m02:23:15.594283 [debug] [MainThread]: Flushing usage events
