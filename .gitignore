@@ -13,3 +13,5 @@ gcp
 service_account.json
 online_retail.csv
 dataset
+configuration.yml
+soda

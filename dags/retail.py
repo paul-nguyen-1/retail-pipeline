@@ -49,5 +49,5 @@ def retail():
         ),
         use_native_support=False,
     )
-
+# airflow tasks test retail {method} 2023-01-01
 retail()
